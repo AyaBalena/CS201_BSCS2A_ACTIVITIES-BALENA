@@ -1,5 +1,5 @@
 document.addEventListener(`DOMContentLoaded`, function() {
-  fetch(`cofeemenu.json`)
+  fetch(`coffee.json`)
   .then((response) => response.json())
   .then((cofeemenu) => {
     const Coffee = cofeemenu.Coffee;
