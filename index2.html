@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coffee Shop</title>
+  </head>
+  <body>
+    <div class="coffee-shop">
+      <h1>Coffee Shop</h1>
+      <div class="actions">
+        <label for="orderSelect">Select Coffee:</label>
+        <select id="orderSelect"></select>
+        <button onclick="placeOrder()">Place Order</button>
+        <button onclick="processOrder()">Process Order</button>
+      </div>
+      <div id="orderStack" class="order-stack"></div>
+      <div id="orderQueue" class="order-queue"></div>
+    </div>
+    <script src="activity13.js"></script>
+  </body>
+</html>
