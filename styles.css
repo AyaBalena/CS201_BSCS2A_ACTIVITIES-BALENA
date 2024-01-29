@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .coffee-shop {
+    text-align: center;
+  }
+  
+  .actions {
+    margin-bottom: 10px;
+  }
+  
+  select{
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .order-stack,
+  .order-queue {
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .order-queue {
+    border-color: #4caf50;
+  }
+
+  
